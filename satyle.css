@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#parent
+{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 29px;
+}
+#child1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.firstb
+{
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 4px;
+}
+#icon1
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px 6px;
+}
+#child2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+#icon2{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    border-radius: 45px;
+    padding: 5px 6px;
+}
+#child2 h1{
+    font-weight: 500;
+}
+#childthree
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#childthree button{
+    border: 1px solid black;
+    border-radius:50px ;
+    padding: 5px;
+    background-color: white;
+}
+.btn2
+{
+    background-color: orangered !important;
+    color: white;
+    border: 1px solid orangered !important;
+}
+#main>h2
+{
+    font-size: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 400;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img {
+    width:270px;
+    height:330px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+.btm-left
+{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+}
+#btm-right{
+    width: 100px;
+    position: absolute;
+    bottom: 5%;
+    right: 2%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#bottom>h6{
+    position: absolute;
+    bottom: 2%;
+    right: 2%; 
+    
+}
